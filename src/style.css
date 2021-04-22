@@ -1,0 +1,47 @@
+/*a { text-decoration: none; }*/
+h3:hover{
+    color:red;
+    cursor:pointer
+}
+img[src*="#thumbnail"] {
+   width:150px;
+   height:100px;
+}
+img[alt=thumbnail] {
+   width:200px;
+}
+img[alt$="-thumbnail"]{
+    width:300px;
+}
+img[alt*="=4x6"]{
+    width: 400px;
+    height: 600px;
+}
+img[alt*="=6x4"]{
+    width: 600px;
+    height: 400px;
+}
+img[alt*="=3x4"]{
+    width: 300px;
+    height: 400px;
+}
+img[alt*="=2x4"]{
+    width: 200px;
+    height: 400px;
+}
+img[alt*="=2x3"]{
+    width: 200px;
+    height: 300px;
+}
+img[alt*="=2x*"]{
+    width: 200px;
+}
+img[alt*="=3x*"]{
+    width: 300px;
+}
+img[alt*="=4x*"]{
+    width: 400px;
+}
+img[alt*="=4x*"]{
+    width: 400px;
+}
