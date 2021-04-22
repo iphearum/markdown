@@ -6,7 +6,7 @@
 @ Description: Create a template file
 ---
 
-<!-- <link rel="stylesheet" type="text/css" media="all" href="/src/style.css" /> -->
+<link rel="stylesheet" type="text/css" media="all" href="/src/style.css" />
 
 # <div align="center">MARKDOWN Tips and Tricks</div>
 
@@ -455,55 +455,3 @@ You can also make images into links! This is useful when you need to link larger
 * Keep your content up to date! Users should always be able to go to your page to get relevant and accurate information.
 
 * In the event something doesn't look the way you expect it to, be sure to check for inconsistencies in your markdown!
-
-<style>
-h3:hover{
-    color:red;
-    cursor:pointer
-}
-img[src*="#thumbnail"] {
-   width:150px;
-   height:100px;
-}
-img[alt=thumbnail] {
-   width:200px;
-}
-img[alt$="-thumbnail"]{
-    width:300px;
-}
-img[alt*="=4x6"]{
-    width: 400px;
-    height: 600px;
-}
-img[alt*="=6x4"]{
-    width: 600px;
-    height: 400px;
-}
-img[alt*="=3x4"]{
-    width: 300px;
-    height: 400px;
-}
-img[alt*="=2x4"]{
-    width: 200px;
-    height: 400px;
-}
-img[alt*="=2x3"]{
-    width: 200px;
-    height: 300px;
-}
-img[alt*="=2x*"]{
-    width: 200px;
-}
-img[alt*="=1x*"]{
-    width: 100px;
-}
-img[alt*="=3x*"]{
-    width: 300px;
-}
-img[alt*="=4x*"]{
-    width: 400px;
-}
-img[alt*="=4x*"]{
-    width: 400px;
-}
-</style>
